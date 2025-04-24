@@ -4,7 +4,8 @@ body {
 
 article {
     margin: 0.5%;
-    background-color: rgb(134, 134, 177);
+    color: white;
+    background-color: #292938;
     border: black 2px solid;
     border-radius: 3%;
     width: 90%;
