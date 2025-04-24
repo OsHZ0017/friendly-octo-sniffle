@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+article {
+    margin: 0.5%;
+    background-color: rgb(134, 134, 177);
+    border: black 2px solid;
+    border-radius: 3%;
+    width: 90%;
+    padding: 2%;
+}
+
+.content {
+    text-align: left;
+    border-bottom:black 1px solid;
+    padding: 2px;
+}
+
+.tag {
+    background-color: rgba(141, 198, 141, 0.577);
+    border: solid black 1px;
+    border-radius: 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.image {
+    height: 300px;
+    border-radius: 2%;
+    padding: 2px;
+}
+
+.subtitle {
+    font-size: small;
+    color: rgb(51, 51, 51);
+}
+
+.article-date {
+    font-size: smaller;
+    color: rgb(5, 5, 53);
+    text-decoration: underline;
+}
+
+.left {
+    width: 49%;
+    display: inline;
+}
+
+.right {
+    width: 49%;
+    float: right;
+    display: inline;
+}
