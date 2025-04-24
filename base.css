@@ -23,6 +23,7 @@ article {
     border-radius: 2px;
     margin: 2px;
     padding: 2px;
+    text-decoration: underline;
 }
 
 .image {
