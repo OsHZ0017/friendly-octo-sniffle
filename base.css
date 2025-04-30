@@ -6,8 +6,6 @@ article {
     margin: 0.5%;
     color: white;
     background-color: #292938;
-    border: black 2px solid;
-    border-radius: 3%;
     width: 90%;
     padding: 2%;
 }
@@ -53,4 +51,15 @@ article {
     width: 49%;
     float: right;
     display: inline;
+}
+
+nav {
+    margin: 2%;
+    padding: 1%;
+    color: white;
+    font-size: x-large;
+}
+
+.nav-item {
+    margin: 1%;
 }
