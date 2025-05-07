@@ -10,6 +10,19 @@ article {
     padding: 2%;
 }
 
+footer{
+    background-color: rgb(220, 241, 189);
+    text-align: left;
+    padding: 2%;
+    
+}
+
+.title {
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+
 .content {
     text-align: left;
     border-bottom:rgb(255, 255, 255) 1px solid;
@@ -43,13 +56,13 @@ article {
 }
 
 .left {
-    width: 49%;
+    width: 48%;
     display: inline;
 }
 
 .right {
-    width: 49%;
-    float: right;
+    width: 48%;
+    left: 50%;
     display: inline;
 }
 

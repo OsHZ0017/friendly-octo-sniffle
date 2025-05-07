@@ -1,1 +1,1 @@
-Assignment 1 for this thing
+Assignment 1 for Framework Project 2, Challenges, class one
