@@ -14,7 +14,8 @@ footer{
     background-color: rgb(220, 241, 189);
     text-align: left;
     padding: 2%;
-    
+    display: flex;
+    gap: 2rem;
 }
 
 .title {
@@ -27,6 +28,11 @@ footer{
     text-align: left;
     border-bottom:rgb(255, 255, 255) 1px solid;
     padding: 2px;
+}
+
+.content-footer {
+    display: flex;
+    gap: 2rem;
 }
 
 .tag {
@@ -62,7 +68,6 @@ footer{
 
 .right {
     width: 48%;
-    left: 50%;
     display: inline;
 }
 
