@@ -1,16 +1,10 @@
+/* NO TOUCHY THESE!!! */
+
 body {
     text-align: center;
 }
 
-article {
-    margin: 0.5%;
-    color: white;
-    background-color: #292938;
-    width: 90%;
-    padding: 2%;
-}
-
-footer{
+footer {
     background-color: rgb(220, 241, 189);
     text-align: left;
     padding: 2%;
@@ -18,22 +12,59 @@ footer{
     gap: 2rem;
 }
 
+article {
+    margin: 0;
+    padding: 1rem;
+    background-color: #292938;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease-in-out;
+}
+
+article:hover {
+    transform: translateY(-4px);
+}
+
+
 .title {
     font-size: xx-large;
     font-style: oblique;
     font-weight: bold;
 }
 
+/* aside {
+    font-style: italic;
+    background-color: lightgray;
+} */
+
+/* .all-content {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 75% 25% ;
+} */
+
 .content {
     text-align: left;
-    border-bottom:rgb(255, 255, 255) 1px solid;
+    border-bottom: rgb(255, 255, 255) 1px solid;
     padding: 2px;
 }
 
 .content-footer {
     display: flex;
-    gap: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
 }
+
+.left, .right {
+    width: 50%;
+}
+
 
 .tag {
     background-color: rgba(47, 55, 47, 0.577);
@@ -61,16 +92,6 @@ footer{
     text-decoration: underline;
 }
 
-.left {
-    width: 48%;
-    display: inline;
-}
-
-.right {
-    width: 48%;
-    display: inline;
-}
-
 nav {
     margin: 2%;
     padding: 1%;
@@ -81,3 +102,29 @@ nav {
 .nav-item {
     margin: 1%;
 }
+
+.all-content {
+    margin: 2rem;
+}
+
+.articles {
+    /* background-color: blue; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust spacing between articles as needed */
+    padding: 20px; /* Optional: padding around the grid */
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.articles , article:first-of-type {
+    grid-column: span 2;
+}
+
